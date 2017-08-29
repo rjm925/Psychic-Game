@@ -3,33 +3,16 @@
 	<head>
 		<title>Psychic-Game</title>
 	</head>
+	
 	<body>
+
 		<h1>The Psychic Game</h1>
+
+		<div id="game">
+			
+		</div>
 		
-		<script type="text/javascript">
-			document.write("Guess what letter I'm thinking of<br><br>")
-
-			var wins = 0;
-			var losses = 0;
-
-			while (true) {
-				document.write("Wins: " + wins + "<br><br>");
-				document.write("Losses: " + losses + "<br><br>");
-
-				var guesses = 9;
-
-				while (guesses > 0)
-					document.write("Guesses Left: " + guesses + "<br><br>");
-					document.write("Your guesses so far: ");
-					if () //guess is correct {
-						wins++;
-						break;
-					}
-					else {
-						guesses--;
-					}
-			}
-		</script>
+		<script type="text/javascript" src="assets/javascript/game.js"></script>
 
 	</body>
 </html>
