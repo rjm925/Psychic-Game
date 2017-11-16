@@ -7,4 +7,4 @@ This is a game where the user has 9 lives to guess the random letter. The game w
 # Technology Used
 * HTML
 * CSS
-* JAVASCRIPT
+* JavaScript
