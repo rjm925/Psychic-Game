@@ -3,7 +3,6 @@ let losses = 0;		// Loss counter
 let lives;				// Lives counter
 let guessed;			// Array of letters guessed
 let answer;				// Store the hidden letter
-let last;					// Store last hidden letter
 
 // Array of alphabet letters
 const alphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
