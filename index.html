@@ -2,15 +2,39 @@
 <html>
 	<head>
 
-		<title>Psychic-Game</title>
+		<title>Psychic Game</title>
+
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 		
 	</head>
 	
 	<body>
 
 		<h1>The Psychic Game</h1>
+		<div class="container">
+			<div id="game">
 
-		<div id="game"></div>
+				<div class="row">
+					<div class="col-xs-6">
+						<h2>Wins: <span id="wins"></span></h2>
+					</div>
+					<div class="col-xs-6">
+						<h2>Losses: <span id="losses"></span></h2>
+					</div>
+				</div>
+			
+
+				<div class="row" id="guessed">
+					<h3>Guess a Letter<h3>
+				</div>
+
+				<div class="row">
+					<h4>Guesses Remaining: <span id="lives"></span></h4>
+				</div>
+
+			</div>
+		</div>		
 		
 		<script type="text/javascript" src="assets/javascript/game.js"></script>
 

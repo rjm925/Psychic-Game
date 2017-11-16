@@ -1,0 +1,13 @@
+body {
+	background: black;
+	background-image: url('../images/psychic.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	text-align: center;
+	color: #ffffff;
+}
+
+
+.col-xs-6, #guessed {
+	border: solid 1px;
+}
